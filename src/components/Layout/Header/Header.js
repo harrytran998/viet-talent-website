@@ -19,7 +19,8 @@ const Header = () => {
               <div className="col-xl-3 col-lg-3 d-flex align-items-center">
                 <div className="logo">
                   <Link href="/" as="/">
-                    <img src={require('@public/assets/img/logo/logo.png')} alt="" />
+                    {/* <img src={require('@public/assets/img/logo/logo.png')} alt="" /> */}
+                    <img src={require('../../../../public/assets/img/logo/logo.png')} alt="" />
                   </Link>
                 </div>
               </div>
