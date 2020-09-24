@@ -32,7 +32,7 @@ const TopHeader = () => {
             <div className="header-right f-right ">
               <div className="header-lang  pos-rel f-right">
                 <div className="lang-icon">
-                  <img src={require('../../../../public/assets/img/icon/flag.png')} alt="" />
+                  <img src={require('@public/assets/img/icon/flag.png')} alt="" />
                   <a href="">
                     English{' '}
                     <i>

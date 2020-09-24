@@ -17,7 +17,7 @@ const Header = () => {
               <div className="col-xl-3 col-lg-3 d-flex align-items-center">
                 <div className="logo">
                   <Link href="/" as="/">
-                    <img src={require('../../../../public/assets/img/logo/logo.png')} alt="" />
+                    <img src={require('@public/assets/img/logo/logo.png')} alt="" />
                   </Link>
                 </div>
               </div>
@@ -209,7 +209,7 @@ const Header = () => {
                   </div>
                   <div class="header-lang pos-rel f-right d-none d-xl-block">
                     <div className="lang-icon">
-                      <img src={require('../../../../public/assets/img/icon/flag.png')} alt="" />
+                      <img src={require('@public/assets/img/icon/flag.png')} alt="" />
                       <a href="">
                         English{' '}
                         <i>
