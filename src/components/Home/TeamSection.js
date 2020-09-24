@@ -21,8 +21,7 @@ const Team = () => {
           </div>
           <div className="col-xl-5 offset-xl-3 col-lg-6">
             <div className="team-section mb-30">
-              <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give.</p>
-              <a className="btn" href="#">
+              <a className="btn" href="https://viettalent.typeform.com/to/lL6WBXxF" target="_blank">
                 <span className="btn-text">
                   join with us{' '}
                   <i>
@@ -40,27 +39,17 @@ const Team = () => {
                 <img src="assets/img/team/team-01.jpg" alt="" />
               </div>
               <div className="team-text">
-                <h4>Solvina D Naliz</h4>
-                <span>Web developer</span>
+                <h4>Duc Bui</h4>
+                <span>Head of Business</span>
                 <div className="team-icon">
                   <a href="#">
                     <i>
+                      <FontAwesomeIcon icon={['fab', 'linkedin']} />
+                    </i>
+                  </a>
+                  <a href="#">
+                    <i>
                       <FontAwesomeIcon icon={['fab', 'facebook-f']} />
-                    </i>
-                  </a>
-                  <a href="#">
-                    <i>
-                      <FontAwesomeIcon icon={['fab', 'twitter']} />
-                    </i>
-                  </a>
-                  <a href="#">
-                    <i>
-                      <FontAwesomeIcon icon={['fab', 'instagram']} />
-                    </i>
-                  </a>
-                  <a href="#">
-                    <i>
-                      <FontAwesomeIcon icon={['fab', 'youtube']} />
                     </i>
                   </a>
                 </div>
@@ -73,27 +62,17 @@ const Team = () => {
                 <img src="assets/img/team/team-02.jpg" alt="" />
               </div>
               <div className="team-text">
-                <h4>Jerry D.Silva</h4>
-                <span>UI Designer</span>
+                <h4>Long Nguyen</h4>
+                <span>Head of Technical</span>
                 <div className="team-icon">
                   <a href="#">
                     <i>
+                      <FontAwesomeIcon icon={['fab', 'linkedin']} />
+                    </i>
+                  </a>
+                  <a href="#">
+                    <i>
                       <FontAwesomeIcon icon={['fab', 'facebook-f']} />
-                    </i>
-                  </a>
-                  <a href="#">
-                    <i>
-                      <FontAwesomeIcon icon={['fab', 'twitter']} />
-                    </i>
-                  </a>
-                  <a href="#">
-                    <i>
-                      <FontAwesomeIcon icon={['fab', 'instagram']} />
-                    </i>
-                  </a>
-                  <a href="#">
-                    <i>
-                      <FontAwesomeIcon icon={['fab', 'youtube']} />
                     </i>
                   </a>
                 </div>
@@ -106,27 +85,17 @@ const Team = () => {
                 <img src="assets/img/team/team-03.jpg" alt="" />
               </div>
               <div className="team-text">
-                <h4>David Walillams</h4>
-                <span>sr consultant</span>
+                <h4>Hieu Tran</h4>
+                <span>Tech Leader</span>
                 <div className="team-icon">
                   <a href="#">
                     <i>
+                      <FontAwesomeIcon icon={['fab', 'linkedin']} />
+                    </i>
+                  </a>
+                  <a href="#">
+                    <i>
                       <FontAwesomeIcon icon={['fab', 'facebook-f']} />
-                    </i>
-                  </a>
-                  <a href="#">
-                    <i>
-                      <FontAwesomeIcon icon={['fab', 'twitter']} />
-                    </i>
-                  </a>
-                  <a href="#">
-                    <i>
-                      <FontAwesomeIcon icon={['fab', 'instagram']} />
-                    </i>
-                  </a>
-                  <a href="#">
-                    <i>
-                      <FontAwesomeIcon icon={['fab', 'youtube']} />
                     </i>
                   </a>
                 </div>
@@ -139,27 +108,17 @@ const Team = () => {
                 <img src="assets/img/team/team-04.jpg" alt="" />
               </div>
               <div className="team-text">
-                <h4>Michel Z. Jones</h4>
-                <span>CEO & Founder</span>
+                <h4>Nga Hoang</h4>
+                <span>Human Resources</span>
                 <div className="team-icon">
                   <a href="#">
                     <i>
+                      <FontAwesomeIcon icon={['fab', 'linkedin']} />
+                    </i>
+                  </a>
+                  <a href="#">
+                    <i>
                       <FontAwesomeIcon icon={['fab', 'facebook-f']} />
-                    </i>
-                  </a>
-                  <a href="#">
-                    <i>
-                      <FontAwesomeIcon icon={['fab', 'twitter']} />
-                    </i>
-                  </a>
-                  <a href="#">
-                    <i>
-                      <FontAwesomeIcon icon={['fab', 'instagram']} />
-                    </i>
-                  </a>
-                  <a href="#">
-                    <i>
-                      <FontAwesomeIcon icon={['fab', 'youtube']} />
                     </i>
                   </a>
                 </div>
