@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Service = () => {
   return (
-    <div className="services-area pt-120 pb-100" style={{ 'background-image': 'url(assets/img/bg/bg-1.jpg)' }}>
+    <div id="technology" className="services-area pt-120 pb-100" style={{ 'background-image': 'url(assets/img/bg/bg-1.jpg)' }}>
       <div className="container">
         <div className="row">
           <div className="col-xl-12 col-lg-12">

@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Team = () => {
   return (
-    <div className="team-area pt-120 pb-100 pos-rel">
+    <div id="team" className="team-area pt-120 pb-100 pos-rel">
       <div className="shape d-none d-xl-block">
         <div className="shape-item team-01 bounce-animate">
           <img src="assets/img/shape/shape-1.png" alt="" />
@@ -47,11 +47,6 @@ const Team = () => {
                       <FontAwesomeIcon icon={['fab', 'linkedin']} />
                     </i>
                   </a>
-                  <a href="#">
-                    <i>
-                      <FontAwesomeIcon icon={['fab', 'facebook-f']} />
-                    </i>
-                  </a>
                 </div>
               </div>
             </div>
@@ -68,11 +63,6 @@ const Team = () => {
                   <a href="#">
                     <i>
                       <FontAwesomeIcon icon={['fab', 'linkedin']} />
-                    </i>
-                  </a>
-                  <a href="#">
-                    <i>
-                      <FontAwesomeIcon icon={['fab', 'facebook-f']} />
                     </i>
                   </a>
                 </div>
@@ -93,11 +83,6 @@ const Team = () => {
                       <FontAwesomeIcon icon={['fab', 'linkedin']} />
                     </i>
                   </a>
-                  <a href="#">
-                    <i>
-                      <FontAwesomeIcon icon={['fab', 'facebook-f']} />
-                    </i>
-                  </a>
                 </div>
               </div>
             </div>
@@ -114,11 +99,6 @@ const Team = () => {
                   <a href="#">
                     <i>
                       <FontAwesomeIcon icon={['fab', 'linkedin']} />
-                    </i>
-                  </a>
-                  <a href="#">
-                    <i>
-                      <FontAwesomeIcon icon={['fab', 'facebook-f']} />
                     </i>
                   </a>
                 </div>

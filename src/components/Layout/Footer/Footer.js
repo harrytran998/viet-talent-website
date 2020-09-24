@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Footer = () => {
   return (
     <footer>
-      <div className="footer-area grey-bg pt-20">
+      <div id="contact" className="footer-area grey-bg pt-20">
         <div className="container">
           <div className="row">
             <div className="col-xl-3 col-lg-3 col-md-4">

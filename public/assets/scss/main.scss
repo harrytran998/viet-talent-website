@@ -53,7 +53,8 @@
 @import 'breadcrumb';
 @import 'pagination';
 @import 'shop';
-@import 'responsive'
+@import 'responsive';
 
-
-
+html {
+  scroll-behavior: smooth;
+}

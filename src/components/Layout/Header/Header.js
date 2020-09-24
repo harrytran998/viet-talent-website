@@ -37,11 +37,6 @@ const Header = () => {
                   <nav id="mobile-menu">
                     <ul>
                       <li>
-                        <Link href="/" as="/">
-                          <a>home</a>
-                        </Link>
-                      </li>
-                      <li>
                         <Link href="#team" as="#team">
                           <a>Team</a>
                         </Link>
@@ -57,7 +52,7 @@ const Header = () => {
                         </Link>
                       </li>
                       <li>
-                        <Link href="/contact" as="/contact">
+                        <Link href="#contact" as="#contact">
                           <a>Contact</a>
                         </Link>
                       </li>
