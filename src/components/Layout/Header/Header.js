@@ -26,7 +26,7 @@ const Header = () => {
                 <div className="header-button f-right d-none d-lg-block">
                   <a className="btn" href="https://viettalent.typeform.com/to/lL6WBXxF" target="_blank">
                     <span className="btn-text">
-                      JOIN WITH US
+                      Ứng tuyển
                       <i>
                         <FontAwesomeIcon icon={['fas', 'long-arrow-right']} />
                       </i>
@@ -37,23 +37,23 @@ const Header = () => {
                   <nav id="mobile-menu">
                     <ul>
                       <li>
-                        <Link href="#team" as="#team">
-                          <a>Team</a>
+                        <Link href="#technology" as="#technology">
+                          <a>Công nghệ</a>
                         </Link>
                       </li>
                       <li>
                         <Link href="#culture" as="#culture">
-                          <a>Culture</a>
+                          <a>Văn hoá</a>
                         </Link>
                       </li>
                       <li>
-                        <Link href="#technology" as="#technology">
-                          <a>Technology</a>
+                        <Link href="#team" as="#team">
+                          <a>Đội ngũ</a>
                         </Link>
                       </li>
                       <li>
                         <Link href="#contact" as="#contact">
-                          <a>Contact</a>
+                          <a>Liên hệ</a>
                         </Link>
                       </li>
                     </ul>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-const Service = () => {
+const Technology = () => {
   return (
     <div id="technology" className="services-area pt-120 pb-100" style={{ 'background-image': 'url(assets/img/bg/bg-1.jpg)' }}>
       <div className="container">
@@ -9,9 +9,10 @@ const Service = () => {
           <div className="col-xl-12 col-lg-12">
             <div className="section-title text-center ml-50 mr-50 mb-80">
               <span className="border-left-1"></span>
-              <span>Our technologies</span>
+              <span>Công nghệ chúng tôi sử dụng</span>
               <span className="border-right-1"></span>
-              <h1>We always learn more and apply new technologies to our products</h1>
+              {/* <h1>We always learn more and apply new technologies to our products</h1> */}
+              <h1>Chúng tôi luôn học hỏi và ứng dụng những công nghệ mới nhất vào sản phẩm của mình</h1>
             </div>
           </div>
         </div>
@@ -22,19 +23,10 @@ const Service = () => {
                 <img src="assets/img/service/typescript.png" alt="" />
               </div>
               <div className="services-text">
-                <h3>Language</h3>
+                <h3>Ngôn ngữ</h3>
                 <p>
-                  We use <b>Typescript</b> to be capable to scale and early spotted bugs
+                  Chúng tôi dùng <b>Typescript</b> có khả năng mở rộng và dễ dàng trong quá trình nhóm phát triển
                 </p>
-                <a href="https://medium.com/@jtomaszewski/why-typescript-is-the-best-way-to-write-front-end-in-2019-feb855f9b164">
-                  {' '}
-                  <span className="services-button">
-                    read more{' '}
-                    <i>
-                      <FontAwesomeIcon icon={['fas', 'long-arrow-right']} />
-                    </i>
-                  </span>{' '}
-                </a>
               </div>
             </div>
           </div>
@@ -45,16 +37,9 @@ const Service = () => {
               </div>
               <div className="services-text">
                 <h3>Backend</h3>
-                <p>We use NestJs - A power NodeJs framework</p>
-                <a href="https://nestjs.com/">
-                  {' '}
-                  <span className="services-button">
-                    read more{' '}
-                    <i>
-                      <FontAwesomeIcon icon={['fas', 'long-arrow-right']} />
-                    </i>
-                  </span>{' '}
-                </a>
+                <p>
+                  NestJs - 1 framework cực mạnh mẽ của NodeJs, cực kỳ linh hoạt với <b>modular architecture</b>
+                </p>
               </div>
             </div>
           </div>
@@ -65,16 +50,7 @@ const Service = () => {
               </div>
               <div className="services-text">
                 <h3>Frontend</h3>
-                <p>We use NuxtJs - The intuitive Vue framework</p>
-                <a href="https://nuxtjs.org/">
-                  {' '}
-                  <span className="services-button">
-                    read more{' '}
-                    <i>
-                      <FontAwesomeIcon icon={['fas', 'long-arrow-right']} />
-                    </i>
-                  </span>{' '}
-                </a>
+                <p>NuxtJs - 1 framework của VueJs đang rất phát triển để hỗ trợ SSR cực tốt và đem lại hiệu năng tuyệt vời cho người dùng cuối</p>
               </div>
             </div>
           </div>
@@ -85,16 +61,7 @@ const Service = () => {
               </div>
               <div className="services-text">
                 <h3>API Query Language</h3>
-                <p>We use GraphQl </p>
-                <a href="https://graphql.org/">
-                  {' '}
-                  <span className="services-button">
-                    read more{' '}
-                    <i>
-                      <FontAwesomeIcon icon={['fas', 'long-arrow-right']} />
-                    </i>
-                  </span>{' '}
-                </a>
+                <p>GraphQl - 1 ngôn ngữ đặc biệt giúp các nhà phát triển BE và FE dễ dàng tiếp cận với nhau</p>
               </div>
             </div>
           </div>
@@ -105,16 +72,10 @@ const Service = () => {
               </div>
               <div className="services-text">
                 <h3>CI/CD</h3>
-                <p>We use Github Action and ArgoCD</p>
-                <a href="https://github.com/features/actions">
-                  {' '}
-                  <span className="services-button">
-                    read more{' '}
-                    <i>
-                      <FontAwesomeIcon icon={['fas', 'long-arrow-right']} />
-                    </i>
-                  </span>{' '}
-                </a>
+                <p>
+                  Với CI, <b>Github Action</b> cực trực quan và dễ dùng, còn CD là <b>ArgoCD</b>, có khả năng tự động hoá, theo dõi, và dễ dàng sử
+                  dụng
+                </p>
               </div>
             </div>
           </div>
@@ -125,17 +86,19 @@ const Service = () => {
               </div>
               <div className="services-text">
                 <h3>Infrastructure</h3>
-                <p>We use Docker, Kurbernest, AWS</p>
-                <a href="https://aws.amazon.com/vi/">
-                  {' '}
-                  <span className="services-button">
-                    read more{' '}
-                    <i>
-                      <FontAwesomeIcon icon={['fas', 'long-arrow-right']} />
-                    </i>
-                  </span>{' '}
-                </a>
+                <p>
+                  Không thể không dùng bộ 3 <b>Docker, Kurbernest, AWS</b>, chúng quá tốt để phát triển sản phẩm này
+                </p>
               </div>
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-xl-12 col-lg-12">
+            <div className="section-title text-center ml-50 mr-50 mb-80">
+              <span className="border-right-1"></span>
+              {/* <h1>We always learn more and apply new technologies to our products</h1> */}
+              <h3>Hãy tham gia với chúng tôi để được cập nhật những công nghệ mới nhất và tiếp cận với quy trình làm việc cấp quốc tế</h3>
             </div>
           </div>
         </div>
@@ -144,4 +107,4 @@ const Service = () => {
   );
 };
 
-export default Service;
+export default Technology;

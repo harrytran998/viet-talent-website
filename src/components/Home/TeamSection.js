@@ -16,14 +16,15 @@ const Team = () => {
               <span className="b-sm-left-1"></span>
               <span className="b-sm-left-2"></span>
               <span className="sub-t-left">our Team</span>
-              <h1>Meet Experience Team Member</h1>
+              {/* <h1>Meet Experience Team Member</h1> */}
+              <h1>Các thành viên chủ chốt</h1>
             </div>
           </div>
           <div className="col-xl-5 offset-xl-3 col-lg-6">
             <div className="team-section mb-30">
               <a className="btn" href="https://viettalent.typeform.com/to/lL6WBXxF" target="_blank">
                 <span className="btn-text">
-                  join with us{' '}
+                  Hãy join cùng chúng tôi{' '}
                   <i>
                     <FontAwesomeIcon icon={['fas', 'long-arrow-right']} />
                   </i>
@@ -36,17 +37,15 @@ const Team = () => {
           <div className="col-xl-3 col-lg-3 col-md-6 mb-30">
             <div className="team-wrapper">
               <div className="team-img">
-                <img src="assets/img/team/team-01.jpg" alt="" />
+                <img src="assets/img/team/ducbui.png" alt="" />
               </div>
               <div className="team-text">
-                <h4>Duc Bui</h4>
+                <h4>Đức Bùi</h4>
                 <span>Head of Business</span>
-                <div className="team-icon">
-                  <a href="#">
-                    <i>
-                      <FontAwesomeIcon icon={['fab', 'linkedin']} />
-                    </i>
-                  </a>
+                <div>
+                  <p>Làm việc tại phòng đổi mới sáng tạo thuộc Bộ Kế Hoạch và Đầu Tư</p>
+                  <p>Thạc sĩ ngành Quản trị tại Đại học Harvard (Massachusetts, USA)</p>
+                  <p>Thạc sĩ ngành Tài chính tại Pace University (New York, US)</p>
                 </div>
               </div>
             </div>
@@ -54,17 +53,14 @@ const Team = () => {
           <div className="col-xl-3 col-lg-3 col-md-6 mb-30">
             <div className="team-wrapper">
               <div className="team-img">
-                <img src="assets/img/team/team-02.jpg" alt="" />
+                <img src="assets/img/team/longnguyen.jpeg" alt="" />
               </div>
               <div className="team-text">
-                <h4>Long Nguyen</h4>
+                <h4>Long Nguyễn</h4>
                 <span>Head of Technical</span>
-                <div className="team-icon">
-                  <a href="#">
-                    <i>
-                      <FontAwesomeIcon icon={['fab', 'linkedin']} />
-                    </i>
-                  </a>
+                <div>
+                  <p>Software Architect ở Logrhythm - SIEM solutions và Security Operations Center Services (Colorado, USA) </p>
+                  <p>Thạc sĩ ngành Công nghệ thông tin tại Denver University (Colorado, USA)</p>
                 </div>
               </div>
             </div>
@@ -72,17 +68,15 @@ const Team = () => {
           <div className="col-xl-3 col-lg-3 col-md-6 mb-30">
             <div className="team-wrapper">
               <div className="team-img">
-                <img src="assets/img/team/team-03.jpg" alt="" />
+                <img src="assets/img/team/hieutran.jpeg" alt="" />
               </div>
               <div className="team-text">
-                <h4>Hieu Tran</h4>
+                <h4>Hiếu Trần</h4>
                 <span>Tech Leader</span>
-                <div className="team-icon">
-                  <a href="#">
-                    <i>
-                      <FontAwesomeIcon icon={['fab', 'linkedin']} />
-                    </i>
-                  </a>
+                <div>
+                  <p>Head of Engineering tại Capi Creative</p>
+                  <p>Senior Software Engineering tại Teko Việt Nam</p>
+                  <p>Software Architect tại Kiu Global Việt Nam</p>
                 </div>
               </div>
             </div>
@@ -90,17 +84,14 @@ const Team = () => {
           <div className="col-xl-3 col-lg-3 col-md-6 mb-30">
             <div className="team-wrapper">
               <div className="team-img">
-                <img src="assets/img/team/team-04.jpg" alt="" />
+                <img src="assets/img/team/ngahoang.jpeg" alt="" />
               </div>
               <div className="team-text">
-                <h4>Nga Hoang</h4>
+                <h4>Nga Hoàng</h4>
                 <span>Human Resources</span>
-                <div className="team-icon">
-                  <a href="#">
-                    <i>
-                      <FontAwesomeIcon icon={['fab', 'linkedin']} />
-                    </i>
-                  </a>
+                <div>
+                  <p>Thạc sĩ tại Colorado Boulder University (Colorado, US)</p>
+                  <p>Co-Founder của 1 công ty start-up về mảng EduTech</p>
                 </div>
               </div>
             </div>

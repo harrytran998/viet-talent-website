@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import SliderDefault from '../Elements/Slider/SliderDefault';
 import About from './AboutSection';
-import Service from './ServiceSection';
+import Technology from './Technology';
 import Team from './TeamSection';
 import Culture from './CultureSection';
 import Cta from './CtaSection';
@@ -14,7 +14,7 @@ class HomeMain extends Component {
     return (
       <main>
         <About />
-        <Service />
+        <Technology />
         <Culture />
         <Team />
         <Cta />

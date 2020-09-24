@@ -7,27 +7,29 @@ const About = () => {
         <div className="row">
           <div className="col-xl-4 col-lg-4 mb-30">
             <div className="about-text">
-              <span>who we are</span>
+              <span>Chúng tôi là ai</span>
               <h1>
-                More than 23+ years we provide <span>IT solutions </span>
+                Hơn 10+ năm kinh nghiệm làm việc trong ngành<span> Công nghệ thông tin</span>
               </h1>
               <p>
-                Sedut perspiciatis unde omnis iste natus error sitlupt tem accusantium doloremque laudantium totam remap eriaeaque ipsa quae ab illo
-                inventore veritatis{' '}
+                Với những kinh nghiệm mà chúng tôi đã có về ngành công nghệ thông tin và khởi nghiệp không chỉ trong nước mà còn trong thị trường{' '}
+                <b>USA</b>, chúng tôi tin chắc rằng mình có thể phát triển sản phẩm này thành một trong các{' '}
+                <b>sản phẩm dẫn đầu trong ngành tuyển dụng tại Việt Nam</b>.{' '}
               </p>
             </div>
           </div>
           <div className="col-xl-4 col-lg-4 mb-30">
             <div className="about-img">
-              <img src="assets/img/about/about.jpg" alt="" />
+              <img src="assets/img/about/teamwork.png" alt="" />
             </div>
           </div>
           <div className="col-xl-4 col-lg-4 mb-30">
             <div className="about-content">
               <p>
-                Viet Talent is a early-stage startup aiming to revolutionize the on-campus recruiting and job seeking experience for college students
-                and young professionals. Our mission is to become #1 way for early talent to find jobs. We are currently building Viet Talent’s team
-                to help us accomplish our mission, let’s join us and have fun!
+                <b>Việt Talent</b> là một công ty khởi nghiệp nhằm cách mạng hóa quá trình tuyển dụng và tìm việc làm ngay trong khuôn viên trường cho
+                sinh viên đại học. Mục tiêu của chúng tôi là trở thành công cụ hàng đầu để giúp sinh viên đại học có thể tiếp cận với các nhà tuyển
+                dụng và <b>tìm kiếm việc làm một cách hiệu quả</b>. Chúng tôi hiện đang xây dựng đội ngũ Nhân tài Việt để hoàn thành sứ mệnh của mình.
+                Hãy cùng tham gia với chúng tôi!
               </p>
             </div>
           </div>

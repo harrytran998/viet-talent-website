@@ -17,9 +17,10 @@ const Culture = () => {
           <div className="col-xl-12 col-lg-12">
             <div className="section-title section-title-white text-center ml-50 mr-50 mb-75">
               <span className="border-left-1"></span>
-              <span>Our culture</span>
+              <span>Văn hoá doanh nghiệp</span>
               <span className="border-right-1"></span>
-              <h1>Silicon Valley start-up style</h1>
+              {/* <h1>Silicon Valley start-up style</h1> */}
+              <h1>Phong cách Silicon Valley start-up</h1>
             </div>
           </div>
         </div>
@@ -35,9 +36,10 @@ const Culture = () => {
                 </div>
               </div>
               <div className="working-process-text">
-                <h3>Trasparent</h3>
+                <h3>Minh bạch</h3>
                 <p>
-                  Flat organization. All managers and leaders are always accessible. Weekly all-hand meetings are when you can freely ask anything.
+                  {/* Flat organization. All managers and leaders are always accessible. */}
+                  Mô hình tổ chức ngang hàng. Bạn luôn có thể thoải mái hỏi và biết quản lý và lãnh đạo đang làm gì.
                 </p>
               </div>
             </div>
@@ -53,8 +55,9 @@ const Culture = () => {
                 </div>
               </div>
               <div className="working-process-text">
-                <h3>Creative</h3>
-                <p>Viet Talent environment enables everyone to maximize potentials and talents, whatever it is.</p>
+                <h3>Sáng tạo</h3>
+                {/* <p>Viet Talent environment enables everyone to maximize potentials and talents, whatever it is.</p> */}
+                <p>Viet Talent là 1 môi trường mà mọi người có thể phát huy tối đa tiềm năng và tố chất, cho dù đó là gì.</p>
               </div>
             </div>
           </div>
@@ -66,8 +69,9 @@ const Culture = () => {
                 </i>
               </div>
               <div className="working-process-text">
-                <h3>Flexible</h3>
-                <p>Build your own schedule. Choose your own workspace. Be the best of yourself!</p>
+                <h3>Linh hoạt</h3>
+                {/* <p>Build your own schedule. Choose your own workspace. Be the best of yourself!</p> */}
+                <p>Tự thiết kế không gian làm việc và lịch trình cho chính bạn, miễn là hiệu quả!</p>
               </div>
             </div>
           </div>
