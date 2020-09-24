@@ -8,15 +8,15 @@ const Cta = () => {
         <div className="row">
           <div className="col-xl-7 col-lg-7">
             <div className="cta-text mb-30">
-              <span>Looking for an energetic and professional environment ?</span>
-              <h1>We always respect your perspectives!</h1>
+              <span>Chúng tôi đang cần tuyển lập trình viên cho dự án Việt Talent</span>
+              <h1>Hãy tham gia đội ngũ Việt Talent ngay hôm nay!</h1>
             </div>
           </div>
           <div className="col-xl-5 col-lg-5">
             <div className="cta-button text-lg-right mb-30">
               <a className="btn btn-white btn-none" href="https://viettalent.typeform.com/to/lL6WBXxF" target="_blank">
                 <span className="btn-text">
-                  join with us{' '}
+                  Ứng tuyển{' '}
                   <i>
                     <FontAwesomeIcon icon={['fas', 'long-arrow-right']} />
                   </i>

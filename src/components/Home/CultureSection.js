@@ -17,10 +17,10 @@ const Culture = () => {
           <div className="col-xl-12 col-lg-12">
             <div className="section-title section-title-white text-center ml-50 mr-50 mb-75">
               <span className="border-left-1"></span>
-              <span>Văn hoá doanh nghiệp</span>
+              <span>Việt Talent</span>
               <span className="border-right-1"></span>
               {/* <h1>Silicon Valley start-up style</h1> */}
-              <h1>Phong cách Silicon Valley start-up</h1>
+              <h1 style={{ textTransform: 'uppercase' }}>Văn hóa doanh nghiệp</h1>
             </div>
           </div>
         </div>
@@ -37,10 +37,7 @@ const Culture = () => {
               </div>
               <div className="working-process-text">
                 <h3>Minh bạch</h3>
-                <p>
-                  {/* Flat organization. All managers and leaders are always accessible. */}
-                  Mô hình tổ chức ngang hàng. Bạn luôn có thể thoải mái hỏi và biết quản lý và lãnh đạo đang làm gì.
-                </p>
+                <p>Mô hình tổ chức ngang bằng. Mọi ý kiến đóng góp của các thành viên đều được tôn trọng và khuyến khích</p>
               </div>
             </div>
           </div>
@@ -57,7 +54,7 @@ const Culture = () => {
               <div className="working-process-text">
                 <h3>Sáng tạo</h3>
                 {/* <p>Viet Talent environment enables everyone to maximize potentials and talents, whatever it is.</p> */}
-                <p>Viet Talent là 1 môi trường mà mọi người có thể phát huy tối đa tiềm năng và tố chất, cho dù đó là gì.</p>
+                <p>Viet Talent mong muốn xây dựng 1 môi trường làm việc mà mọi người có thể phát huy tối đa tài năng và sự sáng tạo</p>
               </div>
             </div>
           </div>
@@ -71,7 +68,7 @@ const Culture = () => {
               <div className="working-process-text">
                 <h3>Linh hoạt</h3>
                 {/* <p>Build your own schedule. Choose your own workspace. Be the best of yourself!</p> */}
-                <p>Tự thiết kế không gian làm việc và lịch trình cho chính bạn, miễn là hiệu quả!</p>
+                <p>Mọi người có thể đề xuất một không gian và thời gian làm việc phù hợp để đạt được hiệu quả công việc cao nhất</p>
               </div>
             </div>
           </div>

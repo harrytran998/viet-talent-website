@@ -18,7 +18,7 @@ const Footer = () => {
             </div>
             <div className="col-xl-9 col-lg-9 col-md-8">
               <div className="footer-wrapper">
-                <h4 className="footer-title">Contact Us</h4>
+                <h4 className="footer-title">Liên hệ chúng tôi</h4>
                 <div className="footer-info"></div>
                 <div className="contact-link d-flex">
                   <div className="contact-box">
@@ -42,7 +42,7 @@ const Footer = () => {
                       <i className="far fa-map-marker-alt"></i>
                     </div>
                     <div className="contact-address-text">
-                      <h4>29 Tran Binh Trong, Hai Ba Trung, Ha Noi</h4>
+                      <h4>29 Trần Bình Trọng, Hai Bà Trưng, Hà Nội</h4>
                     </div>
                   </div>
                 </div>
