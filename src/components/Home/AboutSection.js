@@ -2,14 +2,14 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div className="about-area pt-130 pb-100">
+    <div className="about-area pt-130 pb-10">
       <div className="container">
         <div className="row">
           <div className="col-xl-4 col-lg-4 mb-30">
             <div className="about-text">
-              <span>Chúng tôi là ai</span>
+              <span>Chúng tôi là ai?</span>
               <h1>
-                Hơn 10+ năm kinh nghiệm làm việc trong ngành<span> Công nghệ thông tin và khởi nghiệp</span>
+                Hơn <span>10+</span> năm kinh nghiệm trong ngành<span> công nghệ thông tin và khởi nghiệp.</span>
               </h1>
             </div>
           </div>
@@ -21,19 +21,15 @@ const About = () => {
           <div className="col-xl-4 col-lg-4 mb-30">
             <div className="about-content">
               <p>
-                <b>Việt Talent</b> là một công ty khởi nghiệp nhằm cách mạng hóa quá trình tuyển dụng và tìm việc làm ngay trong khuôn viên trường cho
-                sinh viên đại học. Mục tiêu của chúng tôi là trở thành công cụ hàng đầu để giúp sinh viên đại học có thể tiếp cận với các nhà tuyển
-                dụng và <b>tìm kiếm việc làm một cách hiệu quả</b>. Chúng tôi hiện đang xây dựng đội ngũ Nhân tài Việt để hoàn thành sứ mệnh của mình.
-                Hãy cùng tham gia với chúng tôi!
+                <b>Việt Talent</b> là một startup trẻ với sứ mệnh cách mạng hóa hoạt động hướng nghiệp và tìm kiếm việc làm cho sinh viên và newbie
+                mới tốt nghiệp. Tầm nhìn của Viet Talent là trở thành công cụ số 1 để{' '}
+                <b>
+                  giúp sinh viên định hướng tốt nghề nghiệp ngay khi còn đang ngồi trên ghế nhà trường, giúp tiếp cận với các nhà tuyển dụng, và tìm
+                  kiếm việc làm một cách hiệu quả
+                </b>
+                . Chúng tôi hiện đang xây dựng đội ngũ Viet Talent để hoàn thành sứ mệnh của mình. Let's join Viet Talent to have fun and to make an
+                impact!
               </p>
-            </div>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-xl-12 col-lg-12">
-            <p className="text-center">Bạn đang tìm kiếm một môi trường làm việc năng động và chuyên nghiệp?</p>
-            <div className="section-title text-center ml-50 mr-50 mb-80">
-              <h3>Hãy tham gia ngay vào đội ngũ Việt Talent</h3>
             </div>
           </div>
         </div>

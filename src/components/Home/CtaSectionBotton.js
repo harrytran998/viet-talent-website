@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Cta = () => {
   return (
-    <div className="cta-area pt-125 pb-95" style={{ 'background-image': 'url(assets/img/bg/bg-2.jpg)' }}>
+    <div className="cta-area pt-20 pb-20" style={{ 'background-image': 'url(assets/img/bg/bg-2.jpg)' }}>
       <div className="container">
         <div className="row">
           <div className="col-xl-7 col-lg-7">
@@ -13,9 +13,9 @@ const Cta = () => {
             </div>
           </div>
           <div className="col-xl-5 col-lg-5">
-            <div className="cta-button text-lg-right mb-30">
-              <a className="btn btn-white btn-none" href="https://viettalent.typeform.com/to/lL6WBXxF" target="_blank">
-                <span className="btn-text">
+            <div className="services-text cta-button text-lg-right mb-10">
+              <a className="cta-custom" href="/job" target="_blank" style={{ backgroundColor: 'white' }}>
+                <span className="services-button">
                   Ứng tuyển{' '}
                   <i>
                     <FontAwesomeIcon icon={['fas', 'long-arrow-right']} />

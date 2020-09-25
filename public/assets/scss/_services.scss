@@ -64,6 +64,9 @@
 .services-text a:hover {
   border-color: #1065c4;
 }
+.services-text .cta-custom:hover {
+  border-color: white;
+}
 .services-text a::before {
   content: '';
   width: 0;
@@ -80,6 +83,7 @@
   left: 0;
   -webkit-transition: width 0.3s ease;
   transition: width 0.3s ease;
+  border-radius: 4px;
 }
 .section-title {
   & > span {

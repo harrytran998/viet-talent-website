@@ -24,7 +24,7 @@ const Header = () => {
               <div id="right-header" className="col-xl-9 col-lg-9">
                 <BurgerMenus pageWrapId={'burger-menu-bar'} outerContainerId={'header-wrap'} />
                 <div className="header-button f-right d-none d-lg-block">
-                  <a className="btn" href="/job" target="_blank">
+                  <a className="btn" href="https://viettalent.typeform.com/to/lL6WBXxF" target="_blank">
                     <span className="btn-text">
                       Ứng tuyển
                       <i>
@@ -37,18 +37,13 @@ const Header = () => {
                   <nav id="mobile-menu">
                     <ul>
                       <li>
-                        <Link href="#technology" as="#technology">
-                          <a>Công nghệ</a>
+                        <Link href="/" as="/">
+                          <a>Trang chủ</a>
                         </Link>
                       </li>
                       <li>
-                        <Link href="#culture" as="#culture">
-                          <a>Văn hoá</a>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="#team" as="#team">
-                          <a>Đội ngũ</a>
+                        <Link href="#jd-bottom" as="#jd-bottom">
+                          <a>Quyền lợi</a>
                         </Link>
                       </li>
                       <li>

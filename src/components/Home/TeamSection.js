@@ -16,13 +16,12 @@ const Team = () => {
               <span className="b-sm-left-1"></span>
               <span className="b-sm-left-2"></span>
               <span className="sub-t-left">Đội ngũ Việt Talent</span>
-              {/* <h1>Meet Experience Team Member</h1> */}
-              <h1>Thành viên sáng lập</h1>
+              <h1>Sáng Lập Viên</h1>
             </div>
           </div>
           <div className="col-xl-5 offset-xl-3 col-lg-6">
             <div className="team-section mb-30">
-              <a className="btn" href="https://viettalent.typeform.com/to/lL6WBXxF" target="_blank">
+              <a className="btn" href="/job" target="_blank">
                 <span className="btn-text">
                   Tham gia đội ngũ Việt Talent{' '}
                   <i>

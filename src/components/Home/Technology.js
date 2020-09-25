@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Technology = () => {
   return (
-    <div id="technology" className="services-area pt-120 pb-100" style={{ 'background-image': 'url(assets/img/bg/bg-1.jpg)' }}>
+    <div id="technology" className="services-area pt-120 pb-30" style={{ 'background-image': 'url(assets/img/bg/bg-1.jpg)' }}>
       <div className="container">
         <div className="row">
           <div className="col-xl-12 col-lg-12">
@@ -95,12 +95,22 @@ const Technology = () => {
         </div>
         <div className="row">
           <div className="col-xl-12 col-lg-12">
-            <div className="section-title text-center ml-50 mr-50 mb-80">
+            <div className="section-title text-center ml-50 mr-50">
               <span className="border-right-1"></span>
               {/* <h1>We always learn more and apply new technologies to our products</h1> */}
-              <h3>Hãy tham gia với chúng tôi để được cập nhật những công nghệ mới nhất và tiếp cận với quy trình làm việc cấp quốc tế</h3>
+              <h3>Hãy tham gia với chúng tôi để được cập nhật những công nghệ mới nhất và tiếp cận với quy trình làm việc cấp quốc tế!</h3>
             </div>
           </div>
+        </div>
+        <div className="services-text cta-button text-center" style={{ marginTop: '0' }}>
+          <a className="cta-custom" href="/job" target="_blank" style={{ backgroundColor: 'white', padding: '30px 75px', fontSize: '30px' }}>
+            <span className="services-button">
+              Ứng tuyển{' '}
+              <i>
+                <FontAwesomeIcon icon={['fas', 'long-arrow-right']} />
+              </i>
+            </span>{' '}
+          </a>
         </div>
       </div>
     </div>
