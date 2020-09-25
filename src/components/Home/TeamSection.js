@@ -42,7 +42,8 @@ const Team = () => {
                 <h4>Đức Bùi</h4>
                 <span>Head of Business</span>
                 <div>
-                  <p>Thạc sĩ ngành Quản trị tại Đại học Harvard (Massachusetts, USA)</p>
+                  <p>2 năm kinh nghiệm ngành Ngân hàng Đầu tư tại Mỹ và Việt Nam</p>
+                  <p>2 bằng Thạc sỹ tại ĐH Harvard và ĐH Pace (USA)</p>
                 </div>
               </div>
             </div>
@@ -56,7 +57,8 @@ const Team = () => {
                 <h4>Long Nguyễn</h4>
                 <span>Head of Technical</span>
                 <div>
-                  <p>Software Architect ở Logrhythm - SIEM solutions (Colorado, USA) </p>
+                  <p>Software Architect ở Logrhythm (Colorado, USA) </p>
+                  <p>Thạc sĩ Công nghệ thông tin tại Denver University (USA) </p>
                 </div>
               </div>
             </div>
@@ -70,6 +72,7 @@ const Team = () => {
                 <h4>Hiếu Trần</h4>
                 <span>Tech Leader</span>
                 <div>
+                  <p>Head of Technical tại Capi Creative Design</p>
                   <p>Senior Software Engineering tại Teko Việt Nam</p>
                 </div>
               </div>
@@ -84,7 +87,8 @@ const Team = () => {
                 <h4>Nga Hoàng</h4>
                 <span>Human Resources</span>
                 <div>
-                  <p>Thạc sĩ tại Colorado Boulder University (Colorado, USA)</p>
+                  <p>Co-Founder của công ty start-up mảng EduTech</p>
+                  <p>Thạc sĩ tại Colorado Boulder University (USA)</p>
                 </div>
               </div>
             </div>

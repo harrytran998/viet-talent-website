@@ -37,11 +37,6 @@ const Header = () => {
                   <nav id="mobile-menu">
                     <ul>
                       <li>
-                        <Link href="/" as="/">
-                          <a>Trang chủ</a>
-                        </Link>
-                      </li>
-                      <li>
                         <Link href="#jd-bottom" as="#jd-bottom">
                           <a>Quyền lợi</a>
                         </Link>

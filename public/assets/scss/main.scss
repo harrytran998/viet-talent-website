@@ -71,5 +71,8 @@ html {
   }
   .text-white {
     color: white;
+    &::selection {
+      background-color: #fbb6ce;
+    }
   }
 }
