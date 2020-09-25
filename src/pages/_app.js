@@ -1,5 +1,6 @@
 import './index.scss';
 import App from 'next/app';
+import Head from 'next/head';
 import { Provider } from 'react-redux';
 import React from 'react';
 import withRedux from 'next-redux-wrapper';
@@ -22,6 +23,9 @@ class MyApp extends App {
 
     return (
       <Provider store={store}>
+        <Head>
+          <link rel="icon" type="image/png" sizes="16x16" href="assets/img/logo/logo.png" />
+        </Head>
         <Component {...pageProps} />
       </Provider>
     );

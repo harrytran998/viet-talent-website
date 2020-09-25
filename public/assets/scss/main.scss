@@ -33,26 +33,13 @@
 @import 'header';
 @import 'btn';
 @import 'about';
-@import 'slider';
 @import 'footer';
 @import 'services';
 @import 'team';
 @import 'cta';
 @import 'project';
-@import 'testimonial';
-@import 'counter';
-@import 'video';
 @import 'contact';
-@import 'blog';
-@import 'brand';
-@import 'newsletters';
-@import 'faq';
 @import 'process';
-@import 'skills';
-@import 'pricing';
-@import 'breadcrumb';
-@import 'pagination';
-@import 'shop';
 @import 'responsive';
 
 html {
@@ -75,4 +62,8 @@ html {
       background-color: #fbb6ce;
     }
   }
+}
+
+.svg-inline--fa.fa-w-14 {
+  width: 0.875em;
 }

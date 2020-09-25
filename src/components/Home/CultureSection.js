@@ -19,7 +19,6 @@ const Culture = () => {
               <span className="border-left-1"></span>
               <span>Việt Talent</span>
               <span className="border-right-1"></span>
-              {/* <h1>Silicon Valley start-up style</h1> */}
               <h1 style={{ textTransform: 'uppercase' }}>Văn hóa doanh nghiệp</h1>
             </div>
           </div>

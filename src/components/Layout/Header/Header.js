@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
 import Head from 'next/head';
-import BurgerMenus from './BurgerMenus';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Header = () => {
@@ -22,7 +21,6 @@ const Header = () => {
                 </div>
               </div>
               <div id="right-header" className="col-xl-9 col-lg-9">
-                <BurgerMenus pageWrapId={'burger-menu-bar'} outerContainerId={'header-wrap'} />
                 <div className="header-button f-right d-none d-lg-block">
                   <a className="btn" href="/job" target="_blank">
                     <span className="btn-text">
