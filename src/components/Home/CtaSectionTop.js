@@ -14,7 +14,7 @@ const CtaTop = () => {
           </div>
           <div className="col-xl-5 col-lg-5">
             <div className="services-text cta-button text-lg-right mb-10">
-              <a className="cta-custom" href="https://viettalent.typeform.com/to/lL6WBXxF" target="_blank" style={{ backgroundColor: 'white' }}>
+              <a className="cta-custom" href="/job" target="_blank" style={{ backgroundColor: 'white' }}>
                 <span className="services-button">
                   Ứng tuyển{' '}
                   <i>
