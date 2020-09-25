@@ -35,12 +35,12 @@ const JdTop = () => {
             <div className="services-text cta-button text-lg-right mb-10">
               <a
                 className="cta-custom"
-                href="/job"
+                href="https://viettalent.typeform.com/to/lL6WBXxF"
                 target="_blank"
                 style={{ backgroundColor: 'white', padding: '30px 75px', fontSize: '30px', marginLeft: '-3rem', marginRight: '-10rem' }}
               >
                 <span className="services-button">
-                  Ứng tuyển{' '}
+                  Nộp hồ sơ{' '}
                   <i>
                     <FontAwesomeIcon icon={['fas', 'long-arrow-right']} />
                   </i>

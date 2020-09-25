@@ -26,7 +26,7 @@ const Header = () => {
                 <div className="header-button f-right d-none d-lg-block">
                   <a className="btn" href="https://viettalent.typeform.com/to/lL6WBXxF" target="_blank">
                     <span className="btn-text">
-                      Ứng tuyển
+                      Nộp hồ sơ
                       <i>
                         <FontAwesomeIcon icon={['fas', 'long-arrow-right']} />
                       </i>
