@@ -19,7 +19,7 @@ const JdTop = () => {
           </div>
           <div className="col-xl-12 col-lg-12">
             <div className="management-wrapper mb-30">
-              <h1>Chúng tôi đang tìm kiếm những ứng viên:</h1>
+              <h1>Chúng tôi đang tìm kiếm những ứng viên</h1>
               <ul className="list-custom">
                 <li>Có kinh nghiệm trong việc xây dựng các ứng dụng web hướng tới người tiêu dùng</li>
                 <li>
@@ -34,21 +34,30 @@ const JdTop = () => {
               </ul>
             </div>
             <div className="management-wrapper mb-30">
-              <h1>Công việc cụ thể:</h1>
+              <h1>Công việc cụ thể</h1>
               <ul className="list-custom">
                 <li>Đóng góp ý tưởng để cải tiến sản phẩm, đặc biệt là trong UI/UX</li>
                 <li>Phân tích và khảo sát giải pháp cải thiện hiệu suất sản phẩm, tốc độ trang, điểm Lighthouse</li>
                 <li>Tạo thiết kế mockup để thể hiện ý tưởng</li>
               </ul>
             </div>
-            <div className="it-management-text mb-60">
-              <h1>Những kỹ năng cần thiết:</h1>
+            <div className="management-wrapper mb-30">
+              <h1>Những kỹ năng cần thiết</h1>
               <ul className="list-custom">
                 <li>Javascript, HTML, CSS ở mức độ khá</li>
                 <li>Có kiến thức cơ bản về ReactJS hoặc VueJS</li>
                 <li>Có hiểu biết cơ bản về lý thuyết UI/UX</li>
                 <li>Sẵn sàng học hỏi và áp dụng các quy trình phát triển phần mềm.</li>
                 <li>Là điểm cộng nếu bạn có kinh nghiệm sử dụng Figma, Sketch, Balsamiq Mockups, PS, AI…</li>
+              </ul>
+            </div>
+            <div className="management-wrapper mb-30">
+              <h1>Công nghệ mà chúng tôi đang sử dụng</h1>
+              <ul className="list-custom">
+                <li>VueJS, NuxtJS, Styled-System, Emotion, Typescript</li>
+                <li>Apollo GraphQL Client</li>
+                <li>Có hiểu biết cơ bản về lý thuyết UI/UX</li>
+                <li>Multi-tenancy web apps</li>
               </ul>
             </div>
             <div className="it-management-text mb-60">

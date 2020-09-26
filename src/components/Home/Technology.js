@@ -23,9 +23,10 @@ const Technology = () => {
                 <img src="assets/img/service/typescript.png" alt="" />
               </div>
               <div className="services-text">
-                <h3>Ngôn ngữ</h3>
+                <h3>TypeScript</h3>
                 <p>
-                  Chúng tôi dùng <b>Typescript</b> có khả năng mở rộng và dễ dàng trong quá trình nhóm phát triển
+                  TypeScript được sử dụng trong hầu hết các thành phần của hệ thống giúp cho code trở nên dễ đọc, giảm thiểu tối đa lỗi, và có khả
+                  năng mở rộng tốt cho các dự án lớn.
                 </p>
               </div>
             </div>
@@ -36,9 +37,10 @@ const Technology = () => {
                 <img src="assets/img/service/nestjs.png" alt="" />
               </div>
               <div className="services-text">
-                <h3>Backend</h3>
+                <h3>NestJS</h3>
                 <p>
-                  NestJs - 1 framework cực mạnh mẽ của NodeJs, cực kỳ linh hoạt với <b>modular architecture</b>
+                  NestJS là một NodeJS framework được sự dụng để phát triển các ứng dụng server-side với khả năng mở rộng tốt, đáp ứng linh hoạt với
+                  nhiều yêu cầu khác nhau của dự án
                 </p>
               </div>
             </div>
@@ -49,8 +51,11 @@ const Technology = () => {
                 <img src="assets/img/service/nuxtjs.png" alt="" />
               </div>
               <div className="services-text">
-                <h3>Frontend</h3>
-                <p>NuxtJs - 1 framework của VueJs đang rất phát triển để hỗ trợ SSR cực tốt và đem lại hiệu năng tuyệt vời cho người dùng cuối</p>
+                <h3>NuxtJS</h3>
+                <p>
+                  NuxtJS là một framework dựa trên Vue.js để xây dựng các ứng dụng web hiện đại với đòi hòi về hiệu năng cao, khả năng mở rộng tốt, và
+                  đồng thời cũng mang lại trải nghiệm tốt cho developer.
+                </p>
               </div>
             </div>
           </div>
@@ -60,8 +65,11 @@ const Technology = () => {
                 <img src="assets/img/service/graphql.png" alt="" />
               </div>
               <div className="services-text">
-                <h3>API Query Language</h3>
-                <p>GraphQl - 1 ngôn ngữ đặc biệt giúp các nhà phát triển BE và FE dễ dàng tiếp cận với nhau</p>
+                <h3>GraphQL</h3>
+                <p>
+                  GraphQL là API query language hiện đại. Khi kết hợp với TypeScript Stack, GraphQL trở nên rất tiện dụng cho developer và giúp đẩy
+                  nhanh tốc độ phát triển cũng như tăng hiệu năng cho tât cả các ứng dụng.
+                </p>
               </div>
             </div>
           </div>
@@ -71,10 +79,10 @@ const Technology = () => {
                 <img src="assets/img/service/github-action.png" width="96px" height="96px" alt="" />
               </div>
               <div className="services-text">
-                <h3>CI/CD</h3>
+                <h3>Automation & CI/CD</h3>
                 <p>
-                  Với CI, <b>Github Action</b> cực trực quan và dễ dùng, còn CD là <b>ArgoCD</b>, có khả năng tự động hoá, theo dõi, và dễ dàng sử
-                  dụng
+                  Hệ thống Continuous Integration và Continuous Delivery được phát triển bằng những công nghệ hiện đại nhất được đảm bảo tuân theo các
+                  best practices. Các tools được sử dụng như: Github Actions, ArgoCD, vv.
                 </p>
               </div>
             </div>
@@ -85,15 +93,16 @@ const Technology = () => {
                 <img src="assets/img/service/aws.png" alt="" />
               </div>
               <div className="services-text">
-                <h3>Infrastructure</h3>
+                <h3>Cloud-native & IaC</h3>
                 <p>
-                  Không thể không dùng bộ 3 <b>Docker, Kurbernest, AWS</b>, chúng quá tốt để phát triển sản phẩm này
+                  Sản phẩm được phát triển với tư duy cloud-native để vận dụng hết các lợi thế của cloud computing. Toàn bộ cơ sở hạ tầng đều được
+                  Infrastructure as Code. Các công nghệ sử dụng như: Terraform, Kubernetes, Docker, vv.
                 </p>
               </div>
             </div>
           </div>
         </div>
-        <div className="row">
+        <div className="row" style={{ marginTop: '-1rem' }}>
           <div className="col-xl-12 col-lg-12">
             <div className="section-title text-center ml-50 mr-50">
               <span className="border-right-1"></span>

@@ -4,7 +4,7 @@
 }
 .services-wrapper {
   background: $white;
-  padding: 60px 40px 60px 41px;
+  padding: 1.25rem;
   border-radius: 10px;
 }
 .about-img {
@@ -34,6 +34,7 @@
   & p {
     margin-bottom: 0;
     line-height: 30px;
+    text-align: left;
   }
 }
 .services-text a {

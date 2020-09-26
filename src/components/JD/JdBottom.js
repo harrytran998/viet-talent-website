@@ -7,16 +7,7 @@ const JdTop = () => {
       <div className="container">
         <div className="row">
           <div className="col-xl-10 col-lg-10 mb-30">
-            <div className="it-management-wrapper mb-30">
-              <h1 style={{ color: 'rgb(230 245 17)' }}>Công nghệ mà chúng tôi đang sử dụng</h1>
-              <ul className="list-custom">
-                <li className="text-white">VueJS, NuxtJS, Styled-System, Emotion, Typescript</li>
-                <li className="text-white">Apollo GraphQL Client</li>
-                <li className="text-white">Có hiểu biết cơ bản về lý thuyết UI/UX</li>
-                <li className="text-white">Multi-tenancy web apps</li>
-              </ul>
-            </div>
-            <div className="it-management-wrapper">
+            <div>
               <h1 style={{ color: 'rgb(230 245 17)' }}>Quyền lợi</h1>
               <ul className="list-custom">
                 <li className="text-white">Lương & Thưởng: 10-30 triệu/tháng</li>
@@ -37,7 +28,7 @@ const JdTop = () => {
                 className="cta-custom"
                 href="https://viettalent.typeform.com/to/lL6WBXxF"
                 target="_blank"
-                style={{ backgroundColor: 'white', padding: '30px 75px', fontSize: '30px', marginLeft: '-3rem', marginRight: '-10rem' }}
+                style={{ backgroundColor: 'white', padding: '30px 75px', fontSize: '30px', marginRight: '-14rem' }}
               >
                 <span className="services-button">
                   Nộp hồ sơ{' '}
